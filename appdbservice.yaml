@@ -8,6 +8,5 @@ spec:
   ports:
   - port: 3306
     targetPort: vpro-port
-    protocal: TCP
-  type: ClusterIP    
-
+    protocol: TCP
+  type: ClusterIP
